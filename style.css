@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body {
+    background-color: black;
+}
+header {
+    position: sticky;
+}
+.nav {
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(15, 15, 15);
+    height: 60px;
+    color: white;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    background-image: url(Images/Playlist-logo.png);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 20px;
+    align-items: center;
+}
+
+.Brand-Name {
+    position: relative;
+    left: 35px;
+}
+p {
+    cursor: pointer;
+}
+.nav-content-2 {
+    position: relative;
+    left: 1200px;
+}
+.nav-content-3 {
+    position: relative;
+    left: 1260px;
+}
+
+.container {
+    margin: 10px 10px 10px 10px;
+    height: 600px;
+    width: 1510px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.box {
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+}
+.box-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 215px;
+    position: sticky;
+    
+}
+.section-1 {
+    display: flex;
+}
+.home {
+    margin-left: 15px;
+    margin-top: 25px;
+    margin-right: 20px;
+    height: 50px;
+    width: 60px;
+}
+.section-2 {
+    display: flex;
+}
+.search-icon {
+    margin-left: 15px;
+    margin-top: 21px;
+    margin-right: 20px;
+    height: 50px;
+    width: 60px;
+}
+.box-2 {
+    /* display: flex;
+    flex-wrap: wrap; */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    position: sticky;
+}
+
+.music-suffle {
+    padding: 30px;
+    display: flex;
+}
+
+.main-image {
+    margin: 20px 55px 20px 20px;
+    border-radius: 15px 15px 15px 15px;
+    height: 500px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.over-main-image {
+    position: absolute;
+    left: 120px;
+    top: 413px;
+    z-index: -1;
+    height: 120px;
+    width: 350px;
+} 
+.circle-SW {
+    opacity: 0.5;
+    position: absolute;
+    left: 85px;
+    top: 45px;
+    z-index: -1;
+    height: 370px;
+    width: 427px;
+}
+.circle-SW:hover {
+    transition: opacity 1.0s ease-in-out;
+}
+.music-cat {
+    margin-top: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 25px;
+}
+.tuning {
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 190px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+i {
+    cursor: pointer;
+}
+.songName {
+    font-size: 120%;
+}
+.duration {
+    padding: 20px;
+}
+.music-category {
+    margin: 0 20px 20px 20px;
+    border-radius: 15px 15px 15px 15px;
+    height: 65px;
+    width: 75px;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+#myProgressBar {
+    margin-top: 25px;
+    width: 65vw;
+    text-align: center;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    margin-top: 10px;
+    /* flex-direction: column; */   
+}
+.icons i{
+    cursor: pointer;
+}
+.box-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: sticky;
+    height: 335px;
+}
+.section-3 {
+    display: flex;
+}
+.library {
+    margin-left: 15px;
+    margin-top: 38px;
+    margin-right: 20px;
+    height: 50px;
+    width: 60px;
+}
+.createPlaylist-box{
+    /* display: flex; */
+    /* align-items: center; */
+    position: relative;
+    right: 180px;
+    margin-top: 130px;
+    background-color: rgba(54, 52, 52, 0.781);
+    height: 170px;
+    width: 292px;
+    border-radius: 15px 15px 15px 15px;
+} 
+
+.yourplaylist {
+    margin-top: 20px;
+    margin-left: 15px;
+} 
+.create-section {
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.songInfo {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px 10px;
+    position: absolute;
+    left: 0;
+}
+.songInfo p {
+    position: relative;
+    left: 85px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.songInfo img{
+    position: absolute;
+    margin-top: 15px;
+    height: 30px;
+    width: 80px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
