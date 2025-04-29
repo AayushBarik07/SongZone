@@ -26,7 +26,7 @@
 
 ## 🔗 Live Demo
 
-Experience SongZone in action: [[https://song-zone-one.vercel.app](https://song-zone-one.vercel.app)](https://song-zone-one.vercel.app/)
+Experience SongZone in action: [[https://song-zone-one.vercel.app]](https://song-zone-one.vercel.app/)
 
 ## 📁 Project Structure
 
